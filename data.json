@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Pretty Girl",
+      "artist": "Harry",
+      "price": 300,
+      "inStock": true
+    },
+    {
+      "id": 2,
+      "name": "Stairway to the Gothic Cathedral",
+      "category": "Luna",
+      "price": 700,
+      "inStock": true
+    },
+    {
+      "id": 3,
+      "name": "Girls Don't Cry",
+      "category": "Dururu",
+      "price": 600,
+      "inStock": true
+    }
+  ]
+  

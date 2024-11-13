@@ -1,0 +1,89 @@
+#tab{
+    position: absolute;
+    padding:20px;
+    font-size:large;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+    
+}
+
+#main_head{
+    padding:20px;
+    margin-top: 30px;
+    font-size:60px;
+}
+
+td{
+    padding:20px;
+    
+}
+
+#main_divl{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg,rgb(255, 251, 208),rgb(183, 189, 255));
+    border-radius: 30px;
+    width:550px;
+    height:420px;
+}
+#main_divr{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg,rgb(255, 251, 208),rgb(183, 255, 195));
+    border-radius: 30px;
+    width:550px;
+    height:420px;
+}
+
+input{
+
+    width:250px;
+    height:40px;
+    border-radius: 10px;
+    border: 1px;
+    text-align:start;
+    padding:10px;
+}
+
+#lfrm{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rfrm{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#loginb{
+    color:white;
+    background-color: #000000;
+    width:100px;
+    height:40px;
+    border-radius: 20px;
+    font-size:15px;
+}
+
+
+#registerb{
+    color:white;
+    background-color: #000000;
+    width:100px;
+    height:40px;
+    border-radius: 20px;
+    font-size:15px;
+    
+}
+
+span{
+    width:200px;
+    height:100px;
+    
+}
+
+

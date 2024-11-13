@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register</title>
+  <link rel="stylesheet" href="stylelogin.css">
+</head>
+<body>
+    <h1 align="center" id="main_head">Register</h1>
+    <form id="rfrm">
+        <div id="main_divr">
+        <table id="tab" cellspacing="15">
+            <tr>
+                <th><label>Name</label></th>
+                <td><input type="text" id="rname" name="rname" placeholder="Username">
+                    <br><span id="user_msg"></span></td>
+            </tr>
+            
+            <tr>
+                <th><label>Password</label></th>
+                <td><input type="password" id="rpass" name="rpass" placeholder="Password">
+                  <br><span id="pass_msg"></span></td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align:center"><button id="registerb" type="submit">Register</button></td>
+            </tr>
+
+        </table>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

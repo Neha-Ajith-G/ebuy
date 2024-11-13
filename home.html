@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="myTopnav">
+        <a href="home.html">HOME</a>
+        <a href="compete.html">COMPETE</a>
+        <a href="login.html">LOGIN</a>
+        <a href="register.html">REGISTER</a>
+    </div>
+
+    <h1>Welcome</h1>
+    
+    <div id="about">
+        <button type="button" onclick="update()"><i>To know more about us</i></button>
+    </div>
+    <hr>
+
+    <div id="imgct" class="img-container">
+        <img src="HOME.jpg" alt="cats drawing">
+    </div>
+
+    <div id="shopdiv" class="shop">
+        <h1>Artworks</h1>
+        <form id="filter" action="#" method="get">
+            <input type="number" id="filterin" placeholder="Enter your budget" min="0" step="0.01">
+            <input type="button" id="filterbt" value="APPLY" onclick="fetchAndFilterData()">
+        </form>
+        
+        <h1>Filtered Artwork List</h1>
+        <ul id="dataList"></ul>
+        <hr>
+        
+        <!-- Artwork Table -->
+        <table>
+            <tr>
+                <td><img src="download (9).jpg" alt="Pretty Girl Artwork"></td>
+                <td>
+                    <h3>Pretty Girl</h3>
+                    <h4>Harry</h4>
+                </td>
+                <td>
+                    <h3 class="price" data-price="300">$300</h3>
+                    <button type="button" class="buy">BUY</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="Cathedral.jpg" alt="Stairway to the Gothic Cathedral Artwork"></td>
+                <td>
+                    <h3>Stairway to the Gothic Cathedral</h3>
+                    <h4>Luna</h4>
+                </td>
+                <td>
+                    <h3 class="price" data-price="700">$700</h3>
+                    <button type="button" class="buy">BUY</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="cry.jpg" alt="Girls Don't Cry Artwork"></td>
+                <td>
+                    <h3>Girls Don't Cry</h3>
+                    <h4>Dururu</h4>
+                </td>
+                <td>
+                    <h3 class="price" data-price="600">$600</h3>
+                    <button type="button" class="buy">BUY</button>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
